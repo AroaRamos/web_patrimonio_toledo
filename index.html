@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre Toledo - Patrimonio e Historia</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="display-1 fw-bold text-white animate-fade-in">Descubre Toledo</h1>
+            <p class="lead text-white fst-italic animate-fade-in-delay">La ciudad de las tres culturas</p>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-building"></i> Toledo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catedral.html">La Catedral</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alcazar.html">El Alcázar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mirador.html">Mirador del Valle</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <section class="intro-section">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="display-4 mb-4">Bienvenido/a a Toledo</h2>
+                    <p class="lead">
+                        Toledo es una ciudad histórica situada en el centro de España, declarada Patrimonio de la Humanidad por la UNESCO en 1986.
+                    </p>
+                    <p>
+                        Conocida como "la ciudad de las tres culturas", Toledo es un ejemplo único de convivencia entre las culturas cristiana, judía e islámica durante siglos. Sus calles estrechas y empedradas, sus monumentos históricos y su impresionante ubicación sobre el río Tajo la convierten en uno de los destinos turísticos más fascinantes de España.
+                    </p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="img/portada.jpg" alt="Toledo panorámica" class="img-fluid rounded shadow-lg hover-zoom">
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <section class="puntos-section">
+            <h2 class="display-4 text-center mb-5">Puntos de interés destacados</h2>
+            
+            <div class="row g-4">
+                <!-- Card 1: Catedral -->
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="card h-100 shadow-lg border-0 card-hover">
+                        <img src="img/catedral.jpg" class="card-img-top" alt="Catedral de Toledo">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Punto 1</span>
+                            <h3 class="card-title">La Catedral Primada</h3>
+                            <p class="card-text">
+                                Una obra maestra del gótico español que alberga tesoros artísticos de incalculable valor. Su arquitectura imponente y sus capillas decoradas te dejarán sin palabras.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <a href="catedral.html" class="btn btn-primary btn-lg w-100">
+                                Explorar <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Alcázar -->
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card h-100 shadow-lg border-0 card-hover">
+                        <img src="img/portada2.jpg" class="card-img-top" alt="Alcázar de Toledo">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Punto 2</span>
+                            <h3 class="card-title">El Alcázar de Toledo</h3>
+                            <p class="card-text">
+                                Fortaleza histórica que domina el skyline de la ciudad. Actual sede del Museo del Ejército, es testigo de importantes acontecimientos de la historia de España.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <a href="alcazar.html" class="btn btn-primary btn-lg w-100">
+                                Descubrir <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Mirador -->
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card h-100 shadow-lg border-0 card-hover">
+                        <img src="img/miradddor.jpg" class="card-img-top" alt="Mirador del Valle">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Punto 3</span>
+                            <h3 class="card-title">Mirador del Valle</h3>
+                            <p class="card-text">
+                                Las vistas más espectaculares de Toledo. Desde aquí podrás contemplar toda la ciudad medieval rodeada por el río Tajo en una panorámica de postal.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <a href="mirador.html" class="btn btn-primary btn-lg w-100">
+                                Ver más <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <section class="info-practica-section">
+            <h2 class="display-5 text-center mb-5">Información práctica</h2>
+            
+            <div class="row g-4">
+                <div class="col-md-4 text-center" data-aos="fade-up">
+                    <div class="info-icon mb-3">
+                        <i class="bi bi-sun display-1 text-primary"></i>
+                    </div>
+                    <h4>Mejor época para visitar</h4>
+                    <p>Primavera y otoño ofrecen temperaturas agradables para pasear por la ciudad.</p>
+                </div>
+                
+                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="info-icon mb-3">
+                        <i class="bi bi-train-front display-1 text-primary"></i>
+                    </div>
+                    <h4>Cómo llegar</h4>
+                    <p>Toledo está a solo 30 minutos en tren desde Madrid, lo que la convierte en una excursión perfecta de un día.</p>
+                </div>
+                
+                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-icon mb-3">
+                        <i class="bi bi-clock display-1 text-primary"></i>
+                    </div>
+                    <h4>Duración recomendada</h4>
+                    <p>Para visitar estos tres puntos con calma, te recomendamos dedicar al menos 4-5 horas.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer mt-5 py-4">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2025 - Proyecto Descubre Toledo</p>
+            <p class="mb-0">Diseño de Interfaces Web - IES Juan Bosco</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

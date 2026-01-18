@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Catedral Primada - Toledo</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="hero-section-small">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="display-3 fw-bold text-white">La Catedral Primada</h1>
+            <p class="lead text-white fst-italic">Joya del gótico español</p>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-building"></i> Toledo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="catedral.html">La Catedral</a></li>
+                    <li class="nav-item"><a class="nav-link" href="alcazar.html">El Alcázar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mirador.html">Mirador del Valle</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <section class="video-section mb-5" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-body p-4">
+                            <h2 class="card-title mb-4">
+                                <i class="bi bi-play-circle-fill text-primary"></i> Vídeo de presentación
+                            </h2>
+                            
+                            <div class="ratio ratio-16x9">
+                                <video controls muted poster="img/poster-catedral.jpg" class="rounded">
+                                    <source src="media/video/catedral.mp4" type="video/mp4">
+                                    <track kind="subtitles" src="media/subtitulos/catedral-subtitulos.vtt" srclang="es" label="Español" default>
+                                    Tu navegador no soporta la reproducción de vídeo.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="audio-section mb-5" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="card shadow border-0 audio-card">
+                        <div class="card-body p-4">
+                            <h2 class="card-title mb-3">
+                                <i class="bi bi-headphones text-primary"></i> Audioguía
+                            </h2>
+                            <p class="text-muted mb-4">Escucha la explicación completa sobre la Catedral Primada:</p>
+                            
+                            <audio controls class="w-100">
+                                <source src="media/audio/catedral.mp3" type="audio/mpeg">
+                                Tu navegador no soporta la reproducción de audio.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="descripcion-section mb-5" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body p-5">
+                            <h2 class="mb-4"><i class="bi bi-info-circle text-primary"></i> Descripción</h2>
+                            
+                            <p>
+                                La Catedral Primada de Santa María de Toledo es uno de los monumentos más impresionantes del gótico español. Construida entre 1226 y 1493, esta catedral es considerada la obra cumbre del estilo gótico en España y una de las catedrales más importantes de Europa.
+                            </p>
+                            
+                            <p>
+                                Su fachada principal destaca por sus tres portadas monumentales y su impresionante torre de 90 metros de altura. El interior alberga una colección artística de incalculable valor, con obras de El Greco, Goya, Caravaggio y otros maestros. El coro, situado en el centro de la nave, es una obra maestra del arte renacentista español.
+                            </p>
+                            
+                            <p>
+                                La Catedral también destaca por su Transparente, una obra barroca única que permite la entrada de luz natural de forma espectacular, creando un efecto visual impresionante. Sus capillas laterales contienen tesoros artísticos y la Sala Capitular exhibe una impresionante colección de pinturas murales.
+                            </p>
+                            
+                            <p>
+                                Visitar la Catedral de Toledo es hacer un viaje por la historia del arte español, desde el gótico medieval hasta el barroco, pasando por el renacimiento. Es, sin duda, una parada obligatoria para cualquier visitante de la ciudad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria-section mb-5" data-aos="fade-up">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-5">
+                        <i class="bi bi-images text-primary"></i> Galería de imágenes
+                    </h2>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="zoom-in">
+                    <div class="card border-0 shadow-lg gallery-card">
+                        <img src="img/catedral3.jpg" class="card-img-top gallery-img" alt="Interior de la Catedral" data-bs-toggle="modal" data-bs-target="#modalImg1">
+                        <div class="card-body">
+                            <h5 class="card-title">Interior de la Catedral</h5>
+                            <p class="card-text text-muted">
+                                <i class="bi bi-camera"></i> Vista de las impresionantes bóvedas góticas y el altar mayor
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card border-0 shadow-lg gallery-card">
+                        <img src="img/catedral4.jpg" class="card-img-top gallery-img" alt="Fachada de la Catedral" data-bs-toggle="modal" data-bs-target="#modalImg2">
+                        <div class="card-body">
+                            <h5 class="card-title">Fachada principal</h5>
+                            <p class="card-text text-muted">
+                                <i class="bi bi-camera"></i> Las tres portadas monumentales de estilo gótico
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center my-5">
+            <a href="index.html" class="btn btn-outline-primary btn-lg">
+                <i class="bi bi-arrow-left"></i> Volver al inicio
+            </a>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalImg1" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"></button>
+                    <img src="img/catedral3.jpg" class="img-fluid rounded" alt="Interior Catedral">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalImg2" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"></button>
+                    <img src="img/catedral.jpg" class="img-fluid rounded" alt="Fachada Catedral">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-4">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2025 - Proyecto Descubre Toledo</p>
+            <p class="mb-0">Diseño de Interfaces Web - IES Juan Bosco</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({duration: 1000, once: true});</script>
+</body>
+</html>
